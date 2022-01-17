@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome To My Influence gear</title>
+    <script class="images"="https://kit.fontawesome.com/7cc7b4f4be.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7cc7b4f4be.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
@@ -22,6 +23,7 @@
 
         }
 
+        /* .first-section */
         .first-section {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -48,12 +50,13 @@
         }
 
         .img {
-            border: 1px solid whitesmoke;
-            position: absolute;
-            width: 440px;
-            height: 414px;
-            left: 835px;
-            top: 211px;
+            width: 475px;
+            height: 300px;
+        }
+
+        .images {
+            border: 1px solid rgb(207, 111, 111);
+            width: 90%;
         }
 
         /* second section start ---
@@ -86,7 +89,52 @@
         .collection-container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            border: 2px solid blue;
+            grid-row-gap: 20px;
+            grid-column-gap: 20px;
+        }
+
+        .popular {
+            width: 450px;
+            border: 1px solid rgb(138, 130, 127);
+            box-shadow: 10px gray;
+            border-radius: 10px;
+
+
+
+        }
+
+        article {
+            margin-left: 10px;
+        }
+
+        /* -----------------------
+            another sectioni end
+            ----------------------------  */
+        .section-last {
+            margin-left: 90%;
+        }
+
+        .arrow {
+            text-decoration: none;
+            color: crimson;
+            font-size: 0.75em;
+        }
+
+        .footer {
+            color: white;
+            background-color: black;
+            display: grid;
+            grid-row-gap: none;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            padding-left: 40%;
+
+        }
+
+        .footer-heading {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-column-gap: 0;
         }
     </style>
 </head>
@@ -112,7 +160,7 @@
                 <a class="anchor" href="">Prebook now <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="img">
-                <img src="main-camera.png" alt="">
+                <img class="img" src="main-camera.png" alt="">
             </div>
         </div>
     </section>
@@ -122,11 +170,11 @@
         </div>
         <div class="collection-container">
             <div class="popular">
-                <img src="action.png" alt="">
+                <img class="images" src="action.png" alt="">
                 <article>
                     <h1 class="action-camera">Action Camera</h1>
                     <h3 class="rate">$380.00</h3>
-                    <i class="fas fa-star"></i>
+
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -140,11 +188,11 @@
 
             </div>
             <div class="popular">
-                <img src="airpod.png" alt="">
+                <img class="images" src="airpod.png" alt="">
                 <article>
                     <h1 class="action-camera Airbuds">Airbuds</h1>
                     <h3 class="rate">$100.00</h3>
-                    <i class="fas fa-star"></i>
+
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -158,12 +206,12 @@
 
             </div>
             <div class="popular">
-                <img src="camera.png" alt="">
+                <img class="images" src="camera.png" alt="">
                 <article>
                     <h1 class="action-camera Vlogging">Vlogging Camera
                     </h1>
                     <h3 class="rate">$1800.80</h3>
-                    <i class="fas fa-star"></i>
+
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -177,12 +225,12 @@
 
             </div>
             <div class="popular">
-                <img src="drone.png" alt="">
+                <img class="images" src="drone.png" alt="">
                 <article>
                     <h1 class="action-camera drone">Drone
                     </h1>
                     <h3 class="rate">$980.25</h3>
-                    <i class="fas fa-star"></i>
+
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -196,12 +244,12 @@
 
             </div>
             <div class="popular">
-                <img src="lights.png" alt="">
+                <img class="images" src="lights.png" alt="">
                 <article>
                     <h1 class="action-camera light">Light Setup
                     </h1>
                     <h3 class="rate">$1200.00</h3>
-                    <i class="fas fa-star"></i>
+
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -215,12 +263,12 @@
 
             </div>
             <div class="popular">
-                <img src="mic.png" alt="">
+                <img class="images" src="mic.png" alt="">
                 <article>
                     <h1 class="action-camera mic">microphone
                     </h1>
                     <h3 class="rate">$120.25</h3>
-                    <i class="fas fa-star"></i>
+
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -234,12 +282,12 @@
 
             </div>
             <div class="popular">
-                <img src="setup.png" alt="">
+                <img class="images" src="setup.png" alt="">
                 <article>
                     <h1 class="action-camera mic">microphone
                     </h1>
                     <h3 class="rate">$820.40</h3>
-                    <i class="fas fa-star"></i>
+
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -253,12 +301,12 @@
 
             </div>
             <div class="popular">
-                <img src="single-light.png" alt="">
+                <img class="images" src="single-light.png" alt="">
                 <article>
                     <h1 class="action-camera Screen">Green Screen
                     </h1>
                     <h3 class="rate">$25.48</h3>
-                    <i class="fas fa-star"></i>
+
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -272,12 +320,11 @@
 
             </div>
             <div class="popular">
-                <img src="tripod.png" alt="">
+                <img class="images" src="tripod.png" alt="">
                 <article>
                     <h1 class="action-camera Screen">Green Screen
                     </h1>
                     <h3 class="rate">$25.48</h3>
-                    <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -292,7 +339,28 @@
             </div>
         </div>
     </section>
-
+    <section>
+        <div class="section-last">
+            <a class="arrow" href="">
+                <h3>See more <i class="fas fa-arrow-right"></i></h3>
+            </a>
+        </div>
+    </section>
+    <div>
+        <footer class="footer">
+            <h1 class="footer-heading">
+                Influencer products
+            </h1>
+            <h4>Copyright <i class="fas fa-copyright"></i> 2022 influencer products</h4>
+            <h4>All rights reserved</h4>
+            <h4>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-facebook"></i>
+            </h4>
+        </footer>
+    </div>
 </body>
 
 </html>
